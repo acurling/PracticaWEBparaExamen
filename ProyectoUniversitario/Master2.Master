@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master2.master.cs" Inherits="ProyectoUniversitario.Master2" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="css/menu2.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            
+<ul>
+  <li><a class="active" href="BitacoraEmpleados.aspx">Bitacora Empleados</a></li>
+  <li><a href="Bitacora2.aspx">Bitacora 2</a></li>
+  <li><a href="#nada">Bitacora 3</a></li>
+  <li><a href="inicio.aspx">Regresar</a></li>
+</ul>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

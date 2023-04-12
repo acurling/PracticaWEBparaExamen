@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Menuprincipal.master.cs" Inherits="ProyectoUniversitario.Menuprincipal" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link href="css/menucss.css" rel="stylesheet" />
+    <link href="css/BotonesCss.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div>
+                <div class="navbar">
+                    <a href="HOME.ASPX">inicio</a>
+                    <a href="NOTICIA.ASPX">noticia</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">
+                            Catalogo 
+      <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="Estudiantes.aspx">Estudiantes</a>
+                            <a href="Maestros.aspx">Maestros</a>
+                            <a href="#">Cursos</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">
+                            Administracion 
+      <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Asignar notas</a>
+                            <a href="#">Asignar estudiantes a un curso</a>
+                            <a href="#">Asignar profesor a un curso</a>
+                             <a href="BitacoraEmpleados.aspx">Bitacoras</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+    </form>
+</body>
+</html>
