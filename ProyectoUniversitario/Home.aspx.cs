@@ -22,7 +22,7 @@ namespace ProyectoUniversitario
                 Response.Redirect("inicio.aspx");
             } else
             {
-                lmensaje.Text = "usuario no existe";
+                DBConn.RegistrarAlerta(this, "usuario no existe");
             }
 
 

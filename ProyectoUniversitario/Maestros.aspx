@@ -14,7 +14,7 @@
     <br />
     <br />
     <br />
-    <asp:Button ID="Button1" CssClass="button button1" runat="server" Text="Agregar" />
+    <asp:Button ID="Button1" CssClass="button button1" runat="server" Text="Agregar" OnClick="Button1_Click" />
     <asp:Button ID="Button2" CssClass="button button2" runat ="server" Text="Borrar" />
     <asp:Button ID="Button3" CssClass="button button4" runat="server" Text="Consultar" />
     <asp:Button ID="Button4" CssClass="button button3" runat="server" Text="Modificar" />

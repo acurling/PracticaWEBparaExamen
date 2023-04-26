@@ -26,7 +26,10 @@
                         <div class="dropdown-content">
                             <a href="Estudiantes.aspx">Estudiantes</a>
                             <a href="Maestros.aspx">Maestros</a>
-                            <a href="#">Cursos</a>
+                            <a href="Empleados.aspx">Bitacora Empleados</a>
+
+                             <a href="Categorias.aspx">Categorias</a>
+                            <a href="Productos.aspx">Productos</a>
                         </div>
                     </div>
                     <div class="dropdown">

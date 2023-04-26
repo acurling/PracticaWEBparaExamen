@@ -68,8 +68,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Administracion.aspx" />
+    <Content Include="BD\Veterinaria.sql" />
     <Content Include="Bitacora2.aspx" />
     <Content Include="BitacoraEmpleados.aspx" />
+    <Content Include="Categorias.aspx" />
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\bootstrap\bootstrap-grid.css" />
     <Content Include="css\bootstrap\bootstrap-reboot.css" />
@@ -79,6 +81,7 @@
     <Content Include="css\menucss.css" />
     <Content Include="css\owl.carousel.min.css" />
     <Content Include="css\style.css" />
+    <Content Include="Empleados.aspx" />
     <Content Include="Estudiantes.aspx" />
     <Content Include="fonts\icomoon\demo-files\demo.css" />
     <Content Include="fonts\icomoon\demo-files\demo.js" />
@@ -103,6 +106,7 @@
     <Content Include="css\menu2.css" />
     <Content Include="noticia.aspx" />
     <Content Include="pagina1.aspx" />
+    <Content Include="Productos.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -126,6 +130,20 @@
     </Compile>
     <Compile Include="BitacoraEmpleados.aspx.designer.cs">
       <DependentUpon>BitacoraEmpleados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Categorias.aspx.cs">
+      <DependentUpon>Categorias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Categorias.aspx.designer.cs">
+      <DependentUpon>Categorias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Empleados.aspx.cs">
+      <DependentUpon>Empleados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Empleados.aspx.designer.cs">
+      <DependentUpon>Empleados.aspx</DependentUpon>
     </Compile>
     <Compile Include="Estudiantes.aspx.cs">
       <DependentUpon>Estudiantes.aspx</DependentUpon>
@@ -183,6 +201,7 @@
     <Compile Include="Menuprincipal.Master.designer.cs">
       <DependentUpon>Menuprincipal.Master</DependentUpon>
     </Compile>
+    <Compile Include="Modelo\ClsArticulo.cs" />
     <Compile Include="Modelo\ClsUSuario.cs" />
     <Compile Include="Modelo\DBConn.cs" />
     <Compile Include="noticia.aspx.cs">
@@ -198,6 +217,13 @@
     </Compile>
     <Compile Include="pagina1.aspx.designer.cs">
       <DependentUpon>pagina1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Productos.aspx.cs">
+      <DependentUpon>Productos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Productos.aspx.designer.cs">
+      <DependentUpon>Productos.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
